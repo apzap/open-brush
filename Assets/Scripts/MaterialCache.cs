@@ -35,6 +35,8 @@ namespace TiltBrush
 
         public void AssignMaterial(Material mat)
         {
+            if (mat != null)
+                return;
             // Get mat from dictionary.
             if (!m_CachedMaterialMap.ContainsKey(mat))
             {
