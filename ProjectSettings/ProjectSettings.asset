@@ -9,11 +9,11 @@ PlayerSettings:
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
   defaultScreenOrientation: 0
-  targetDevice: 2
+  targetDevice: 0
   useOnDemandResources: 0
   accelerometerFrequency: 100
-  companyName: Icosa Foundation
-  productName: Open Brush
+  companyName: zappar
+  productName: zapbox open brush
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -142,15 +142,12 @@ PlayerSettings:
   loadStoreDebugModeEnabled: 0
   visionOSBundleVersion: 1.0
   tvOSBundleVersion: 1.0
-  bundleVersion: 1.0.0
+  bundleVersion: 1.0.1
   preloadedAssets:
   - {fileID: 0}
   - {fileID: 11400000, guid: feef587f0ac641c4ab7d9e44e7eea888, type: 2}
   - {fileID: 0}
   - {fileID: 11400000, guid: 19081a626c84bff4385d3962a9daff0f, type: 2}
-  - {fileID: 4436211510375909911, guid: 07092d12b03adbd49b1ade5f5742e72e, type: 2}
-  - {fileID: 11400000, guid: 62987a061b20ae345a45e835010db90d, type: 2}
-  - {fileID: 2540959591261858297, guid: f1ebaba0fe484c1469e1bc54ab8d82e1, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -176,7 +173,7 @@ PlayerSettings:
     Tizen: com.yourcompany.yourproduct
     WebGL: com.yourcompany.yourproduct
     Windows Store Apps: com.yourcompany.yourproduct
-    iPhone: foundation.icosa.openbrush
+    iPhone: com.zappar.open-brush-zapbox
     tvOS: com.yourcompany.yourproduct
   buildNumber:
     Standalone: 0
@@ -201,7 +198,7 @@ PlayerSettings:
   strictShaderVariantMatching: 0
   VertexChannelCompressionMask: 4054
   iPhoneSdkVersion: 988
-  iOSTargetOSVersionString: 12.0
+  iOSTargetOSVersionString: 17.2
   tvOSSdkVersion: 0
   tvOSRequireExtendedGameController: 0
   tvOSTargetOSVersionString: 12.0

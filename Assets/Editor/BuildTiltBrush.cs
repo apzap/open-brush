@@ -1028,7 +1028,7 @@ static class BuildTiltBrush
             new_identifier = "com.Icosa.OpenBrush";
 #elif ZAPBOX_SUPPORTED
             // Zapbox has a separate listing
-            new_identifier = "foundation.icosa.openbrushzapbox";
+            new_identifier = "com.zappar.open-brush-zapbox";
 #endif
             if (!String.IsNullOrEmpty(Description))
             {

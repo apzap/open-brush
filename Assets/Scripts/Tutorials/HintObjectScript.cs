@@ -66,8 +66,12 @@ namespace TiltBrush
             m_ActivateTimer = 0.0f;
             CreateStemNodes();
             UpdateScale(0.0f);
-
+#if ZAPBOX_SUPPORTED
+            
+#else
             SetHintText(m_HintDescription.GetLocalizedStringAsync().Result);
+#endif
+
         }
 
         public void Activate(bool bActivate)
